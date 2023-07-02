@@ -5,9 +5,9 @@ body {
   flex-direction: column;
 }
 
-/* First section */
+/* Section one */
 
-.hero {
+.hero_section {
   background-color: #1F2937;
   padding: 20px 200px 0;
 } 
@@ -75,10 +75,11 @@ button {
   padding: 8px 32px;
 }
 
-/* Second section */
+/* Section two */
 
-.section_two {
+.info_section {
   text-align: center;
+  margin-bottom: 120px;
 }
 
 .title {
@@ -99,7 +100,6 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
 .box {
@@ -116,6 +116,24 @@ button {
   margin: 0 16px;
 }
 
-.section_three {
-  min-height: 350px;
+/* Section three */
+
+.quote_section {
+  background-color: #E5E7EB;
+  padding: 120px 300px;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: 100;
+  color: #454545;
+  line-height: 1.5;
+}
+
+.author {
+  font-size: 24px;
+  font-weight: bolder;
+  color: #1F2937;
+  text-align: end;
+  margin: 10px 36px 0 0;
 }
