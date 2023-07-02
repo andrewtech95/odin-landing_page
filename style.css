@@ -42,7 +42,8 @@ a {
   text-decoration: none;
 }
 
-.header_logo {
+.header_logo, 
+.cta_title {
   font-size: 24px;
   font-weight: 800;
   color: #F9FAF8;
@@ -54,8 +55,8 @@ a {
   color: #F9FAF8;
 }
 
-.hero_secondary_text, 
- a {
+.hero_secondary_text, a,
+ .cta_text {
   font-size: 18px;
   color: #E5E7EB;
 }
@@ -68,11 +69,14 @@ button {
   font-family: Roboto, sans-serif;
   font-size: 18px;
   font-weight: 700;
-  border: none;
   border-radius: 8px;
   background-color: #3882F6;
   color: #F9FAF8;
   padding: 8px 32px;
+}
+
+.button_one {
+  border: none;
 }
 
 /* Section two */
@@ -89,7 +93,7 @@ button {
   margin: 50px 0;
 }
 
-.container {
+.info_container {
   display: flex;
   justify-content: center;
   gap: 52px;
@@ -136,4 +140,23 @@ button {
   color: #1F2937;
   text-align: end;
   margin: 10px 36px 0 0;
+}
+
+/* Section four */
+
+.cta_section {
+  padding: 100px 400px;
+}
+
+.cta_container {
+  border-radius: 8px;
+  padding: 50px 100px;
+  background-color: #3882F6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button_two {
+  border: 2px solid #F9FAF8;
 }
